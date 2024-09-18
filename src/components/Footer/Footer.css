@@ -1,0 +1,126 @@
+.footer {
+    background-color: #f8f9fa; 
+    font-family: 'Nunito', sans-serif!important;
+  }
+  
+  .footer-logo {
+    width: 12rem;
+    height: auto;
+  }
+  
+  .footer-social-icons a {
+    color: #000;
+    font-size: 2.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-social-icons a:hover {
+    transform: rotate(360deg); /* Smooth rotate effect */
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    border-top: 2px solid #e2e2e2;
+    padding-top: 30px;
+  }
+  
+  .footer-content h2 {
+    cursor: pointer;
+    position: relative;
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif!important;
+   
+  }
+  
+  .footer-content ul {
+    padding-left: 0;
+    margin-top: 10px;
+text-align: left;
+  }
+  
+  .footer-content li {
+    list-style: none;
+    color: #000;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+    font-family: 'Nunito', sans-serif!important;
+  }
+  
+  .footer-content li:hover {
+    color: #000; /* Hover effect */
+  }
+  
+  /* Default hidden state for the dropdown menu */
+  .footer-dropdown {
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+  
+  .footer-dropdown.d-block {
+    display: block;
+    max-height: 300px;
+    
+  }
+  
+  /* Styles for devices with max-width of 450px */
+  @media (max-width: 450px) {
+
+    .footer-content h2 {
+        
+        font-size: 2.5rem;
+        align-items: left;
+      }
+
+      .footer-content li {
+        
+        font-size: 2.2rem;
+        text-align: left;
+        padding-left: 3rem;
+      }
+
+    .row{
+        padding: 3rem;
+    }
+
+    
+
+    .footer-content-right {
+      flex-direction: column;
+      text-align: left;
+    }
+  
+    .dropdown-toggle {
+      display:inline-block;
+      margin-left: 3rem;
+    }
+  
+    .footer-sub-content-left ul {
+      display: none; /* Hide by default */
+    }
+  
+    .footer-dropdown {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
+  /* Styles for larger screens */
+  @media (min-width: 451px) {
+    .footer-dropdown {
+      display: block; /* Always display on larger screens */
+      max-height: none; /* Remove the max-height restriction */
+    }
+  
+    .footer-content h2 {
+      cursor: default; /* Disable cursor pointer on large screens */
+    }
+    .dropdown-toggle {
+        display:none;
+        /* margin-left: 10px; */
+      }
+  }
+  

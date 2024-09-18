@@ -1,0 +1,21 @@
+.card-container {
+  /* margin-left: 30rem; */
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap:1.5rem;
+  }
+
+  @media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+  
+    
+  
+  
+  }
+  
+  
+ 

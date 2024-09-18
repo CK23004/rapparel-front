@@ -1,0 +1,27 @@
+.recommended-flex {
+  display: flex;
+  margin-left: 0rem;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.recommended-title {
+  margin-left: 20rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+
+.btns {
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 1.2em;
+  margin-right: 6px;
+  background: transparent;
+  border: none;
+  /* border: 0.6px solid #ccc; */
+  border-radius: 5px;
+  color: #C0C0C0;
+  cursor: pointer;
+}

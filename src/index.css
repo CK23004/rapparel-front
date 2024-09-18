@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Fuggles&family=Gupter:wght@400;500;700&family=Roboto+Slab&family=Roboto:wght@100;300;400;500;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+:root{
+    --green:rgb(225 29 72);;
+    --black:#000;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+*{
+  /* font-family: "Gupter", serif; */
+  font-family: "Nunito";
+  font-weight: 400;
+  font-style: normal;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: none;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
+
+section{
+    padding:2rem 9%;
+}
+
+section:nth-child(even){
+    background:#eee;
+}
+
+.sub-heading{
+    text-align: center;
+    color:var(--green);
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.heading{
+    text-align: center;
+    color:var(--black);
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+
+.simple-heading{
+  
+  color: var(--black);
+  background: none;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+
+.simple-heading:hover{
+  
+  color: var(--green);
+  
+}
+
+
+
+html::-webkit-scrollbar {
+  width: .6rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #000;
+  height: 2rem;
+  border-radius: 5rem;
+
+}
+
+
+@media (max-width:991px){
+
+  html{
+      font-size: 55%;
+  }
+  
+  header{
+      padding:1rem 2rem;
+  }
+
+  section{
+      padding:2rem;
+  }
+
+
+}
+
+@media (max-width:768px){
+
+ 
+ 
+  
+
+}
+
+@media (max-width:450px){
+
+  html{
+      font-size: 50%;
+  }
+
+  .dishes .box-container .box img{
+      height:auto;
+      width: 100%;
+  }
+
+
+}
+

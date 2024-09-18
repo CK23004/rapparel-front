@@ -1,0 +1,33 @@
+.color-title {
+   
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+  }
+
+  .Active {
+    transition: transform 0.3s ease, color 0.3s ease; /* Add transform transition */
+    cursor: pointer; /* Cursor pointer for interactivity */
+    transform: rotate(45deg); /* Rotate 45 degrees when active */
+  }
+  
+  .Inactive {
+    color: #999999; /* Grey color for inactive state */
+    transition: transform 0.3s ease, color 0.3s ease; /* Add transform transition */
+    cursor: pointer; /* Cursor pointer for interactivity */
+  }
+  
+
+  
+  
+  /* .collapsible .content {
+    padding: 6px;
+    background-color: #eeeeee;
+}
+.collapsible .header {
+    background-color: #dddddd;
+    padding: 6px;
+    cursor: pointer;
+} */
